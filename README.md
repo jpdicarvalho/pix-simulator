@@ -1,9 +1,5 @@
-# sisbancario
-
-Discente: Luydi Matheu Bentes Sousa
-Disciplina: Sistemas Distribuídos
-
-Sistema bancário de PIX
+# Sistema bancário de PIX
+Author: João Pedro Braga de Carvalho
 Documento de Visão
 
 1.  Introdução
