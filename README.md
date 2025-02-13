@@ -10,10 +10,10 @@ Este projeto tem como objetivo a criação de um sistema distribuído de transa�
 
 ### 2.  Objetivos do Sistema
 
-• Simular um sistema bancário para transferências instantâneas entre contas por meio de PIX, com múltiplos bancos e clientes.
-• Ensinar o conceito de comunicação entre APIs em um ambiente distribuído.
-• Exibir operações como controle de chaves PIX, registro de contas e usuários, saldo e extrato.
-• Demonstrar o fluxo de comunicação entre clientes, bancos e um banco central para garantir a segurança e integridade das transações.
+- Simular um sistema bancário para transferências instantâneas entre contas por meio de PIX, com múltiplos bancos e clientes.
+- Ensinar o conceito de comunicação entre APIs em um ambiente distribuído.
+- Exibir operações como controle de chaves PIX, registro de contas e usuários, saldo e extrato.
+- Demonstrar o fluxo de comunicação entre clientes, bancos e um banco central para garantir a segurança e integridade das transações.
 
 
 
