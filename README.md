@@ -10,19 +10,23 @@ Este projeto tem como objetivo a criação de um sistema distribuído de transa�
 
 ### 2.  Objetivos do Sistema
 
-- Simular um sistema bancário para transferências instantâneas entre contas por meio de PIX, com múltiplos bancos e clientes.
+- Simular um sistema bancário para transferências instantâneas entre contas distintas por meio de PIX, com múltiplos bancos e clientes.
 - Ensinar o conceito de comunicação entre APIs em um ambiente distribuído.
 - Exibir operações como controle de chaves PIX, registro de contas e usuários, saldo e extrato.
 - Demonstrar o fluxo de comunicação entre clientes, bancos e um banco central para garantir a segurança e integridade das transações.
 
 
 
-3.  Escopo do Projeto
-    O projeto contará com três componentes principais:
-4.  API Banco Central - Controla a gestão de chaves PIX e a comunicação com os bancos.
-5.  API Banco - Realiza operações financeiras e gerencia a comunicação com o banco central e os clientes.
-6.  App Cliente - Interface de usuário para cadastro e operações bancárias (saldo, extrato, transferências).
-    O sistema será desenvolvido com React para a interface do cliente e Node.js para o back-end das APIs. A implementação será focada na simulação de operações de transferência e na comunicação entre os serviços para garantir que a transação ocorra corretamente.
+### 3.  Escopo do Projeto
+
+O projeto contará com três componentes principais:
+- API Banco Central - Controla a gestão de chaves PIX e a comunicação com os bancos.
+- API Banco - Realiza operações financeiras e gerencia a comunicação com o banco central e os clientes.
+- App Cliente - Interface de usuário para cadastro e operações bancárias (saldo, extrato, transferências).
+
+O sistema será desenvolvido com React para a interface do cliente e Node.js para o back-end das APIs. A implementação será focada na simulação de operações de transferência e na comunicação entre os serviços para garantir que a transação ocorra corretamente.
+
+
 7.  Visão Geral dos Usuários
     • Clientes - Pessoas físicas que utilizam o App Cliente para acessar serviços bancários, como consultas de saldo, extrato e transferências PIX.
     • Bancos - Entidades financeiras que utilizam a API Banco para fornecer serviços aos clientes e realizar interações com o banco central.
