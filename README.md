@@ -1,14 +1,22 @@
-# Sistema bancário de PIX
+# Sistema Bancário - PIX
 Author: João Pedro Braga de Carvalho
-Documento de Visão
 
-1.  Introdução
-    Este projeto tem como objetivo a criação de um sistema distribuído de transações financeiras via PIX, que simula a comunicação entre bancos e um banco central, ilustrando o funcionamento de APIs bancárias em um contexto prático. O sistema será utilizado em uma disciplina de Sistemas Distribuídos, focando em demonstrar a interação entre sistemas através de APIs com operações de registro, consulta e transferência de fundos entre contas.
-2.  Objetivos do Sistema
-    • Simular um sistema bancário para transferências instantâneas entre contas por meio de PIX, com múltiplos bancos e clientes.
-    • Ensinar o conceito de comunicação entre APIs em um ambiente distribuído.
-    • Exibir operações como controle de chaves PIX, registro de contas e usuários, saldo e extrato.
-    • Demonstrar o fluxo de comunicação entre clientes, bancos e um banco central para garantir a segurança e integridade das transações.
+## Documento de Visão
+
+### 1.  Introdução
+    
+Este projeto tem como objetivo a criação de um sistema distribuído de transações financeiras via PIX, que simula a comunicação entre bancos e um banco central, ilustrando o funcionamento de APIs bancárias em um contexto prático. Além disso, o sistema será utilizado em uma disciplina de Sistemas Distribuídos, focando em demonstrar a interação entre sistemas através de APIs com operações de registro, consulta e transferência de fundos entre contas.
+
+
+### 2.  Objetivos do Sistema
+
+• Simular um sistema bancário para transferências instantâneas entre contas por meio de PIX, com múltiplos bancos e clientes.
+• Ensinar o conceito de comunicação entre APIs em um ambiente distribuído.
+• Exibir operações como controle de chaves PIX, registro de contas e usuários, saldo e extrato.
+• Demonstrar o fluxo de comunicação entre clientes, bancos e um banco central para garantir a segurança e integridade das transações.
+
+
+
 3.  Escopo do Projeto
     O projeto contará com três componentes principais:
 4.  API Banco Central - Controla a gestão de chaves PIX e a comunicação com os bancos.
