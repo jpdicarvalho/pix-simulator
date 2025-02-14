@@ -35,6 +35,15 @@ O sistema atende três tipos de usuários:
 - **Bancos**: Instituições financeiras que utilizam a API Banco para oferecer serviços aos clientes e se comunicam com o Banco Central.
 - **Banco Central**: Entidade central que gerencia as chaves PIX e controla os bancos autorizados, garantindo a integridade das transações.
 
+## 5. Resumo das Necessidades
+
+O sistema deverá atender às seguintes necessidades:
+
+- **Simulação de transações PIX**: Implementação de um sistema seguro e eficiente para transações de PIX.
+- **Gestão de Chaves PIX**: Suporte a operações de cadastro, exclusão e listagem de chaves PIX.
+- **Integração Bancária**: Comunicação entre os bancos e o Banco Central para garantir a verificação e autorização das transações.
+- **Gestão de Contas e Usuários**: Funcionalidades básicas de controle de contas bancárias e usuários do sistema.
+
 7. Diagrama de Componentes
 
 ![alt text](/documents/diagramaDeComponetes.png)
