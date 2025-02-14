@@ -15,8 +15,6 @@ Este projeto tem como objetivo a criação de um sistema distribuído de transa�
 - Exibir operações como controle de chaves PIX, registro de contas e usuários, saldo e extrato.
 - Demonstrar o fluxo de comunicação entre clientes, bancos e um banco central para garantir a segurança e integridade das transações.
 
-
-
 ## 3. Escopo do Projeto
 
 O sistema será composto por três componentes principais:
@@ -43,6 +41,15 @@ O sistema deverá atender às seguintes necessidades:
 - **Gestão de Chaves PIX**: Suporte a operações de cadastro, exclusão e listagem de chaves PIX.
 - **Integração Bancária**: Comunicação entre os bancos e o Banco Central para garantir a verificação e autorização das transações.
 - **Gestão de Contas e Usuários**: Funcionalidades básicas de controle de contas bancárias e usuários do sistema.
+
+## 6. Requisitos Funcionais
+
+#### RF1 - Cadastro de Usuários:
+Permitir que o cliente cadastre-se no sistema, criando uma conta no banco.
+#### RF2 - Registro de Contas
+O cliente deve poder registrar uma conta associada ao seu perfil.
+#### RF3 - Consulta de Saldo
+
 
 7. Diagrama de Componentes
 
