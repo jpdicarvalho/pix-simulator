@@ -17,75 +17,23 @@ Este projeto tem como objetivo a criação de um sistema distribuído de transa�
 
 
 
-### 3.  Escopo do Projeto
+## 3. Escopo do Projeto
 
-O projeto contará com três componentes principais:
-- API Banco Central - Controla a gestão de chaves PIX e a comunicação com os bancos.
-- API Banco - Realiza operações financeiras e gerencia a comunicação com o banco central e os clientes.
-- App Cliente - Interface de usuário para cadastro e operações bancárias (saldo, extrato, transferências).
+O sistema será composto por três componentes principais:
 
-O sistema será desenvolvido com React para a interface do cliente e Node.js para o back-end das APIs. A implementação será focada na simulação de operações de transferência e na comunicação entre os serviços para garantir que a transação ocorra corretamente.
+- **API Banco Central**: Responsável pela gestão de chaves PIX e pela comunicação com os bancos.
+- **API Banco**: Gerencia operações financeiras e facilita a comunicação entre o Banco Central e os clientes.
+- **App Cliente**: Interface de usuário para que os clientes possam realizar cadastros e operações bancárias como consultas de saldo, extrato e transferências.
 
+O desenvolvimento será realizado utilizando **React** para a interface do cliente e **Node.js** para o back-end das APIs. O foco será simular transações PIX e garantir uma comunicação fluida entre os serviços para validar a transação de forma correta.
 
-7.  Visão Geral dos Usuários
-    • Clientes - Pessoas físicas que utilizam o App Cliente para acessar serviços bancários, como consultas de saldo, extrato e transferências PIX.
-    • Bancos - Entidades financeiras que utilizam a API Banco para fornecer serviços aos clientes e realizar interações com o banco central.
-    • Banco Central - Entidade central que gerencia as chaves PIX e mantém o controle de bancos autorizados para garantir a integridade das transações.
-8.  Resumo das Necessidades
-    • Implementação de um sistema seguro e eficiente para simular transações PIX.
-    • Suporte a operações de cadastro, exclusão e listagem de chaves PIX.
-    • Integração entre os bancos e o banco central para garantir a verificação e autorização das transações.
-    • Funcionalidades básicas de gestão de contas e usuários.
+## 4. Visão Geral dos Usuários
 
-9.  Requisitos Funcionais
+O sistema atende três tipos de usuários:
 
-RF1 Cadastro de Usuários
-
-Permitir que o cliente cadastre-se no sistema, criando uma conta no banco.
-
-RF2 Registro de Contas
-
-O cliente deve poder registrar uma conta associada ao seu perfil.
-
-RF3 Consulta de Saldo
-
-O cliente deve poder consultar o saldo atual da conta.
-
-RF4 Extrato Bancário
-
-O cliente deve poder acessar o extrato das transações realizadas.
-
-RF5 Cadastro de Chave PIX
-
-Permitir que o cliente registre uma chave PIX vinculada à sua conta no banco.
-
-RF6 Listagem de Chaves PIX
-
-O cliente deve visualizar todas as chaves PIX cadastradas em sua conta.
-
-RF7 Exclusão de Chave PIX
-
-O cliente pode excluir uma chave PIX vinculada à sua conta.
-
-RF8 Transferência via PIX
-
-Permitir que o cliente realize transferências via PIX para outras contas usando a chave PIX.
-
-RF9 Controle de Chaves PIX (Banco Central)
-
-A API Banco Central deve permitir o registro e consulta de chaves PIX de cada cliente registrado pelos bancos.
-
-RF10 Controle de Bancos
-
-O banco central deve ser capaz de gerenciar os bancos participantes, garantindo que apenas bancos autorizados possam registrar e transferir fundos.
-
-RF11 Interação entre API Banco e Banco Central
-
-Cada banco deve se comunicar com a API Banco Central para validar e autorizar as transações de PIX entre contas.
-
-RF12 Simulação de Múltiplos Bancos e Clientes
-
-O sistema deve suportar a existência de duas ou mais instâncias do App Cliente e da API Banco para testar as transações entre bancos diferentes.
+- **Clientes**: Pessoas físicas que utilizam o App Cliente para acessar serviços bancários, como consultar saldo, extrato e realizar transferências PIX.
+- **Bancos**: Instituições financeiras que utilizam a API Banco para oferecer serviços aos clientes e se comunicam com o Banco Central.
+- **Banco Central**: Entidade central que gerencia as chaves PIX e controla os bancos autorizados, garantindo a integridade das transações.
 
 7. Diagrama de Componentes
 
