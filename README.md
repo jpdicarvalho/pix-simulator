@@ -46,10 +46,39 @@ O sistema deverá atender às seguintes necessidades:
 
 #### RF1 - Cadastro de Usuários:
 Permitir que o cliente cadastre-se no sistema, criando uma conta no banco.
+
 #### RF2 - Registro de Contas
 O cliente deve poder registrar uma conta associada ao seu perfil.
-#### RF3 - Consulta de Saldo
 
+#### RF3 - Consulta de Saldo
+O cliente deve poder consultar o saldo atual de sua conta bancária.
+
+#### RF4 - Extrato Bancário
+O cliente deve poder acessar o extrato detalhado das transações realizadas.
+
+#### RF5 - Cadastro de Chave PIX
+Permitir que o cliente registre uma chave PIX vinculada à sua conta no banco.
+
+#### RF6 - Listagem de Chaves PIX
+O cliente deve poder visualizar todas as chaves PIX cadastradas em sua conta bancária.
+
+#### RF7 - Exclusão de Chave PIX
+O cliente deve ter a capacidade de excluir uma chave PIX vinculada à sua conta.
+
+#### RF8 - Transferência via PIX
+Permitir que o cliente realize transferências via PIX para outras contas, utilizando a chave PIX associada à sua conta.
+
+#### RF9 - Controle de Chaves PIX (Banco Central)
+A API Banco Central deve permitir o registro e consulta das chaves PIX de cada cliente registrado pelos bancos.
+
+#### RF10 - Controle de Bancos
+O Banco Central deverá ser capaz de gerenciar os bancos participantes, garantindo que apenas instituições financeiras autorizadas possam registrar e realizar transferências.
+
+#### RF11 - Interação entre API Banco e Banco Central
+Cada banco deve se comunicar com a API Banco Central para validar e autorizar transações PIX entre contas.
+
+#### RF12 - Simulação de Múltiplos Bancos e Clientes
+O sistema deve suportar a existência de múltiplas instâncias do App Cliente e da API Banco para testar transações entre diferentes bancos.
 
 7. Diagrama de Componentes
 
