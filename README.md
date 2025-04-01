@@ -94,6 +94,4 @@ O sistema deve suportar a existência de múltiplas instâncias do App Cliente e
     Encontrar na pasta documents:
 
     9.1 banco_1;
-
-    9.2 banco_2;
     
