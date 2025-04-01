@@ -97,4 +97,3 @@ O sistema deve suportar a existência de múltiplas instâncias do App Cliente e
 
     9.2 banco_2;
     
-    9.3 banco_3;
