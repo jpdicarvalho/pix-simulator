@@ -83,5 +83,3 @@ O sistema deve suportar a existência de múltiplas instâncias do App Cliente e
 7. Diagrama de Componentes
 
 ![alt text](/documents/diagramaDeComponetes.png)
-
-8. Para o executar na sua máquina é necessário a instalação dos seguintes:
