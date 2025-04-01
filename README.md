@@ -79,5 +79,3 @@ Cada banco deve se comunicar com a API Banco Central para validar e autorizar tr
 
 #### RF12 - Simulação de Múltiplos Bancos e Clientes
 O sistema deve suportar a existência de múltiplas instâncias do App Cliente e da API Banco para testar transações entre diferentes bancos.
-
-7. Diagrama de Componentes
