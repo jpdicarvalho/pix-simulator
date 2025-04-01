@@ -90,5 +90,3 @@ O sistema deve suportar a existência de múltiplas instâncias do App Cliente e
     8.3 Xaamp
 
 9. Banco de dados:
-
-    Encontrar na pasta documents:    
