@@ -91,7 +91,4 @@ O sistema deve suportar a existência de múltiplas instâncias do App Cliente e
 
 9. Banco de dados:
 
-    Encontrar na pasta documents:
-
-    9.1 banco_1;
-    
+    Encontrar na pasta documents:    
